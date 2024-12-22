@@ -145,7 +145,6 @@
   "@type": "Florist",
   "name": "TARI BLOOMS",
   "image": "https://th.bing.com/th/id/OIP.zSWnjvpzEmU9-Ts10ZNfMgHaGE?rs=1&pid=ImgDetMain",
-  "@id": "",
   "url": "https://tarijunil.github.io/TARI-BLOOMS/",
   "telephone": "(021) 555-1234",
   "address": {
@@ -169,7 +168,7 @@
     "opens": "00:00",
     "closes": "23:59"
   },
-  "sameAs": "www.instagram.com/tariblooms" 
+  "sameAs": "https://www.instagram.com/tariblooms"
 }
 </script>
     <script type="application/ld+json">
@@ -179,18 +178,18 @@
   "name": "Tari Junilia Dewi",
   "url": "https://tarijunil.github.io/TARI-BLOOMS/",
   "image": "",
-  "sameAs": "www.instagram.com/tarijuniliaaaaa_",
+  "sameAs": "https://www.instagram.com/tarijuniliaaaaa_",
   "jobTitle": "Mahasiswa",
   "worksFor": {
     "@type": "Organization",
-    "name": "Universitas Yatsi Madani"
+    "name": "Universitas Yatsi Madani",
     "memberOf": [
-        "23050668",
-        "Jaringan Semantik",
-        "AM2305.IIIB",
-        "S1 Ilmu Komputer"
+      "23050668",
+      "Jaringan Semantik",
+      "AM2305.IIIB",
+      "S1 Ilmu Komputer"
     ]
-  }  
+  }
 }
 </script>
     <script type="application/ld+json">
@@ -262,7 +261,7 @@
                 <li><a href="#">Beranda</a></li>
                 <li><a href="#tentang">Tentang Kami</a></li>
                 <li><a href="#produk">Produk</a></li>
-                <li><a href="#pemilik">Informasi Pemilik</a></li> <!-- Menambahkan tautan Informasi Pemilik -->
+                <li><a href="#pemilik">Informasi Pemilik</a></li>
                 <li><a href="#kontak">Kontak</a></li>
             </ul>
         </nav>
@@ -271,7 +270,7 @@
     <!-- Section Tentang Kami -->
     <section id="tentang">
         <h2>Tentang Perusahaan</h2>
-        <p>Tari blooms adalah toko online yang menyediakan vas bunga estetik dengan desain unik dan berkualitas, sempurna untuk mempercantik ruangan Anda. Temukan keindahan sederhana di setiap produk kami!</p>
+        <p>Tari blooms adalah toko online yang menyediakan vas bunga estetik dengan desain unik dan berkualitas, sempurna untuk mempercantik ruangan Anda. Temukan keindahan sederhana di setiap produk kami!</p>
     </section>
 
     <!-- Section Produk -->
@@ -297,7 +296,7 @@
     <section id="pemilik">
         <h2>Informasi Pemilik</h2>
         <div class="pemilik-container">
-            <img src="foto.jpg" alt="Pemilik">
+            <img src="https://example.com/your-image.jpg" alt="Pemilik"> <!-- Ganti dengan URL gambar pemilik yang benar -->
             <div>
                 <h3>Tari Junilia Dewi</h3>
                 <p>Tari Junilia Dewi adalah seorang mahasiswi kreatif yang saat ini menempuh pendidikan di Universitas Yarsi Madani. Selain fokus pada studinya, Tari juga mengembangkan usahanya sebagai penjual vas bunga unik dan estetik. Dengan sentuhan seni dan kepekaannya terhadap keindahan, Tari berhasil menghadirkan koleksi vas bunga yang tidak hanya fungsional, tetapi juga mempercantik setiap ruangan. Semangatnya dalam berkreasi menjadikannya inspirasi bagi banyak orang muda yang ingin menjalani pendidikan sambil membangun usaha.</p>
@@ -318,38 +317,23 @@
             <label for="message">Pesan:</label><br>
             <textarea id="message" name="message" rows="4" required></textarea><br><br>
 
+            <button
             <button type="submit">Kirim Pesan</button>
         </form>
-
-        <!-- Informasi Kontak Perusahaan -->
-        <div class="contact-info">
-            <h3>Alamat Perusahaan</h3>
-            <p>Jl. Aria Santika No.40 A, RT.005/RW.011, Margasari, Kec. Karawaci, Kota Tangerang, Banten 15114, Indonesia</p>
-            
-            <h3>Nomor Telepon</h3>
-            <p>(021) 555-1234</p>
-            
-            <h3>Jam Operasional</h3>
-            <p>Senin - Minggu : 24 Jam</p>
-        </div>
     </section>
 
+    <!-- Section Footer -->
     <footer>
-        <p>&copy; 2024 Toko Online. Semua hak dilindungi.</p>
+        <p>&copy; 2024 TARI BLOOMS | Semua hak cipta dilindungi undang-undang.</p>
     </footer>
 
-    <script>
-        // Menangani pengiriman formulir kontak
-        document.getElementById('contact-form').addEventListener('submit', function(e) {
-            e.preventDefault();  // Mencegah pengiriman formulir yang sebenarnya
-
-            const name = document.getElementById('name').value;
-            const email = document.getElementById('email').value;
-            const message = document.getElementById('message').value;
-
-            alert(`Pesan dari ${name} (${email}):\n\n${message}`);
-        });
-    </script>
+    <!-- Informasi Kontak Tambahan -->
+    <div class="contact-info">
+        <h3>Informasi Kontak</h3>
+        <p>Email: <a href="mailto:tarijunil@example.com">tarijunil@example.com</a></p>
+        <p>Telepon: <a href="tel:+62215551234">(021) 555-1234</a></p>
+        <p>Instagram: <a href="https://www.instagram.com/tarijuniliaaaaa_">tarijuniliaaaaa_</a></p>
+    </div>
 
 </body>
 </html>
